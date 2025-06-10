@@ -1,0 +1,30 @@
+{
+  "name": "05-express1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod":"cross-env NODE_ENV=production nodemon app.js",
+    "desa":"cross-env NODE_ENV=development nodemon app.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "config": "^4.0.0",
+    "debug": "^4.4.1",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "3.5.3"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  }
+
+}

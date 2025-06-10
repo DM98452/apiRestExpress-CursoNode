@@ -1,0 +1,6 @@
+{
+    "nombre" : "api rest express - desa ",
+    "configDB" :{
+        "host":"bd desa"
+    }
+}   
